@@ -1,0 +1,25 @@
+ESTRUTURAÇÃO DE CONSULTAS:
+
+Para retornarmos todos os dados de uma tabela utilizamos a seguinte estrutura:
+
+SELECT * FROM nome da tabela;
+
+Para retornar os dados da tabela de fornecedores utilizamos o seguinte código:
+
+SELECT * FROM tabelafornecedores;
+
+Para retornarmos os dados filtrando por alguma característica específica utilizamos a cláusula WHERE da seguinte forma:
+
+SELECT * FROM nome da tabela WHERE nome da coluna = dado que desejamos consultar; 
+
+Para filtrar os fornecedores que possuíam como país de origem a China:
+
+SELECT * FROM tabelafornecedores WHERE país_de_origem = ‘China’
+
+Para filtrarmos os dados distintos contidos em uma coluna específica usamos a cláusula DISTINCT da seguinte maneira:
+
+SELECT DISTINCT nome da coluna FROM nome da tabela; 
+
+Para filtrar os diferentes clientes existentes na tabela de pedidos dessa forma:
+
+SELECT DISTINCT cliente FROM tabelapedidos;
