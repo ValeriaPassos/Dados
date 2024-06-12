@@ -1,0 +1,1 @@
+SELECT DISTINCT id_produto FROM tabelaprodutosdesafioaula1;
